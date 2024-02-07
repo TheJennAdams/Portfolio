@@ -1,0 +1,91 @@
+.index-bg {
+    background: url(/images/background.png);
+    background-size: cover;
+}
+
+.page-wrapper {
+    background-image: linear-gradient(to top, #efc8c9, #cc7075);
+    max-width: 1300px;
+    padding-bottom: 50px;
+    margin: auto;
+    margin-bottom: 60px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #6E3C5F;
+
+}
+
+.title {
+    height: 600px;
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilepic {
+    border-radius: 45px 0px;
+    box-shadow: -20px -20px #6E3C5F;
+    border: 7px solid #6E3C5F;
+}
+
+.intro {
+    padding: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.about {
+    border: 3px dashed #6E3C5F; padding: 20px; margin: 0px 100px;
+}
+
+.skills {
+    border: 3px dashed #6E3C5F; padding: 20px; margin: 0px 100px;
+}
+
+.work {
+    border: 3px dashed #6E3C5F; padding: 20px; margin: 0px 100px;
+}
+
+.foot {
+    padding: 50px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 6em;
+    font-family: Allura;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: .8em;
+}
+
+a {
+    text-decoration: none;
+    color: #774127;
+}

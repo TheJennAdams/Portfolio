@@ -1,0 +1,115 @@
+header {
+    text-align: center;
+    font-family: Allura;
+    font-size: 5em;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+a {
+    color: #B200FF;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 1%;
+}
+
+
+#ja {
+    width: 70%;
+    margin: auto;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 40px;
+    border-top: 1px solid #B200FF;
+    border-bottom: 1px solid #B200FF;
+    color: #B200FF;
+}
+
+.nav-item {
+    flex-direction: row;
+    list-style: none;
+}
+
+#phonenav {
+    text-align: center;
+    background-color: #FFBB28;
+    color: #fff;
+    padding: 0 5px;
+    margin: 0 30%;
+    border-radius: 20px;
+    list-style: none;
+}
+
+#art {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.display {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 5px double #FFBB28;
+    object-fit: cover;
+    padding: 25px;
+    margin: 20px;
+    background-color: #FFF2D6;
+    transform: transform .2s;
+}
+
+.display:hover {
+    transform: scale(1.1);
+    opacity: 40%;
+}
+
+#art h2 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: -125px;
+    font-size: 2.5em;
+    text-shadow: 3px 3px #000;
+    font-family: Fondamento;
+}
+
+.frame {
+    margin-bottom: 45px;
+}
+
+@media (max-width: 800px) {
+    #nav {
+        display: none;
+    }
+}
+
+@media (min-width: 799px) {
+    #phonenav {
+        display: none;
+    }
+}
+
+.page-wrapper h3 {
+    text-align: center;
+    font-family: Fondamento;
+    font-size: 2.5em;
+}
+
+/* Colorcode
+#FFBB28 - Sunflower Yellow
+#FFF2D6 - Pale Yellow
+#FF0000 - Red
+#B200FF - Purple
+*/
