@@ -1,50 +1,104 @@
 .index-bg {
-    background: url(/images/background.png);
+    background: url(images/background.png);
     background-size: cover;
 }
 
 .page-wrapper {
     background-image: linear-gradient(to top, #efc8c9, #cc7075);
-    max-width: 1300px;
+    max-width: 1100px;
     padding-bottom: 50px;
+    padding-top: 50px;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     border-radius: 15px;
     box-shadow: 5px 5px #6E3C5F;
 
 }
 
+.foot-wrapper {
+    background-image: linear-gradient(to top, #EACC8C, #EBB231);
+    max-width: 1100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #D69508;
+
+}
+
 .title {
-    height: 600px;
-    width: 700px;
+    background-color: #799DAA;
+    max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;    
+    box-shadow: 5px 5px #02485f;
+    overflow: hidden;
 }
 
-.profilepic {
-    border-radius: 45px 0px;
-    box-shadow: -20px -20px #6E3C5F;
-    border: 7px solid #6E3C5F;
+@media (min-width: 1100px) {
+    #header {
+    position: sticky; top: 0;
+    }
 }
 
-.intro {
+.imagediv {
     padding: 20px;
     text-align: center;
     padding: 30px;
+    width: 25%;
+}
+
+.intro {
+    text-align: center;
+    padding: 30px;
+    margin-right: 20px;
+}
+
+.profilepic {
+    border-radius: 0px 100px;
+    border: 7px solid #02485f;
+    width:300px;
+}
+
+@media (max-width: 1100px) and (min-width: 750px) {
+    #header {
+        font-size: .6em;
+    }
+    .profilepic {
+        width: 200px !important;
+        border-radius: 0px 75px;
+        border: 5px solid #02485f !important;
+    }
+}
+
+@media (max-width: 749px) {
+    #header {
+        font-size: .4em;
+    }
+    .profilepic {
+        width: 100px !important;
+        border-radius: 0px 30px;
+        border: 3px solid #02485f !important;
+    }
 }
 
 .about {
-    border: 3px dashed #6E3C5F; padding: 20px; margin: 0px 100px;
+    border: 3px dashed #6E3C5F; 
+    padding: 20px; margin: 0px 100px;
 }
 
 .skills {
-    border: 3px dashed #6E3C5F; padding: 20px; margin: 0px 100px;
+    border: 3px dashed #6E3C5F; 
+    padding: 20px; margin: 0px 100px;
 }
 
 .work {
-    border: 3px dashed #6E3C5F; padding: 20px; margin: 0px 100px;
+    border: 3px dashed #6E3C5F; 
+    padding: 20px; margin: 0px 100px;
 }
 
 .foot {
@@ -60,7 +114,7 @@ h1 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 6em;
-    font-family: Allura;
+    font-family: Great Vibes;
 }
 
 h2 {
@@ -75,6 +129,8 @@ h3 {
 
 h4 {
     font-size: 1.5em;
+    margin-bottom: 0;
+    margin-top: 5px
 }
 
 h5 {
