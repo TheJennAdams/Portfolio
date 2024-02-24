@@ -1,27 +1,18 @@
 .portfolio-bg {
-    background: url(images/green.jpg);
-    background-size: cover;
+    background: url(images/embossed.png);
+    background-repeat: repeat;
+}
+
+.bodybg {
+    background-color: #DDE2DB;
+    width: 1200px;
+    margin: -12px auto;
 }
 
 .title {
-    background-image: url(images/header.png);
-    background-size: cover;
-    height: 369px;
-    width: 1000px;
-    margin: auto;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+
 }
 
-.main {
-    background: url(images/foreground.png);
-    /* background-repeat: repeat-x;
-    background-size: cover; */
-    width: 1000px;
-    height: 1205px;
-    margin: auto;
-}
 
 .project {
     margin-left: 20px;
@@ -58,21 +49,17 @@ h2 {
 h3 {
     font-size: 2em;
     margin-top: 0;
-}
-
-h4 {
-    font-size: 1.5em;
-}
-
-h5 {
-    font-size: 1em;
-}
-
-h6 {
-    font-size: .8em;
+    text-align: center;
 }
 
 a {
     text-decoration: none;
     color: #774127;
+}
+
+img {
+    border-radius: 0px 0px 20px 20px;
+    width: 1150px;
+    margin: 0 20px;
+    box-shadow: 3px 3px #89516B;
 }
