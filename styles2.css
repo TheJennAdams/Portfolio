@@ -5,6 +5,8 @@
 
 .bodybg {
     background-color: #DDE2DB;
+    border-left: 6px solid #bec9bb;
+    border-right: 6px solid #bec9bb;
     width: 1200px;
     margin: -12px auto;
 }
@@ -13,25 +15,8 @@
 
 }
 
-
-.project {
-    margin-left: 20px;
-    width: 500px;
-}
-
-.projectimg {
-    width: 250px;
-
-}
-
-.profilepic {
-    border-radius: 45px 0px;
-    box-shadow: -20px -20px #6E3C5F;
-    border: 7px solid #6E3C5F;
-}
-
 h1, h2, h3, h4, h5, h6 {
-    
+    color: #511231;
 }
 
 h1 {
@@ -42,24 +27,62 @@ h1 {
 }
 
 h2 {
-    margin-top: 0;
+    margin-left: 25px;
     font-size: 2.5em;
 }
 
 h3 {
     font-size: 2em;
-    margin-top: 0;
-    text-align: center;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 2rem;
+    margin: 30px 50px;
+}
+
+.examples {
+    margin-left: 25px;
+    font-size: 2rem;
+    margin-top: -10px;
 }
 
 a {
     text-decoration: none;
-    color: #774127;
+    
 }
 
-img {
+.right {
+    background: linear-gradient(to bottom, #C1809D 0%, #C1809D 40px,#DEB8CA 60px, #DEB8CA 100%);
+    border-radius: 20px;
+    width: 650px;
+    margin-left: 520px;
+    box-shadow: 3px 3px #89516B;
+}
+
+#heading {
     border-radius: 0px 0px 20px 20px;
     width: 1150px;
     margin: 0 20px;
     box-shadow: 3px 3px #89516B;
 }
+
+#hr {
+    width: 300px;
+    margin-left: 70px;
+}
+
+.footer {
+    text-align: center;
+    margin-left: -20px;
+}
+
+.sidebar {
+    position: relative;
+    top: -1500px;
+    background: linear-gradient(to bottom, #C1809D 0%, #C1809D 40px,#DEB8CA 60px, #DEB8CA 100%);
+    border-radius: 20px;
+    width: 450px;
+    margin: 0 20px;
+    box-shadow: 3px 3px #89516B;
+    }
