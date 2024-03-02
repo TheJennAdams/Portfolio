@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="artstyles.css">
-    <title>Artwork | Sterogram | Jenn Adams</title>
+    <title>Artwork | Stereogram | Jenn Adams</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=Ephesis&family=Fondamento&display=swap" rel="stylesheet">
@@ -24,15 +24,29 @@
             <li class="nav-item"><a href="art-for-sale.html">Art For Sale</a></li>
     </section>
     <div id="phonenav">
-        <h1>Menu</h1>
-        <li class="phone"><a href="artwork.html">Home</a></li>
-        <li class="phone"><a href="meet-the-artist.html">Meet the Artist</a></li>
-        <li class="phone"><a href="art-inspiration.html">Art Inspiration</a></li>
-        <li class="phone"><a href="choosing-your-medium.html">Choosing Your Medium</a></li>
-        <li class="phone"><a href="believing-in-yourself.html">Believing In Yourself</a></li>
-        <li class="phone"><a href="art-for-sale.html">Art For Sale</a></li>
+        <h1 onclick="dropDown()" class="droplist">Menu</h1>
+        <div id="myDropdown" class="dropdown-content">
+            <hr>
+            <div class="phone"><a href="artwork.html">Home</a></div>
+            <hr>
+            <div class="phone"><a href="meet-the-artist.html">Meet the Artist</a></div>
+            <hr>
+            <div class="phone"><a href="art-inspiration.html">Art Inspiration</a></div>
+            <hr>
+            <div class="phone"><a href="choosing-your-medium.html">Choosing Your Medium</a></div>
+            <hr>
+            <div class="phone"><a href="believing-in-yourself.html">Believing In Yourself</a></div>
+            <hr>
+            <div class="phone"><a href="art-for-sale.html">Art For Sale</a></div>
+            <hr>
+        </div>
     </div>
 
+    <div class="spinny">
+            <img class="rotate" src="images/sunflowerspin.png" alt="Digital Art Piece of a Sunflower">
+
+    </div>
+  
     <footer>
         <div class="page-wrapper">
             <section class="foot">
@@ -46,5 +60,6 @@
         </div>
     </footer>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>

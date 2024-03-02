@@ -18,6 +18,15 @@ h1 {
     padding: 1%;
 }
 
+hr {
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+hr:last-child {
+    border: 0px solid #fff;
+}
+
 
 #ja {
     width: 70%;
@@ -39,14 +48,10 @@ h1 {
     list-style: none;
 }
 
-#phonenav {
-    text-align: center;
-    background-color: #FFBB28;
-    color: #fff;
-    padding: 0 5px;
-    margin: 0 30%;
-    border-radius: 20px;
+.phone {
     list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #art {
@@ -107,15 +112,44 @@ h1 {
     font-size: 2.5em;
 }
 
+/* Phone Navigation Dropdown */
+
+#phonenav {
+    text-align: center;
+    background-color: #FFBB28;
+    color: #fff;
+    padding: 0 5px;
+    margin: 0 30%;
+    border-radius: 10px;
+    list-style: none;
+}
+
+.dropdown-content {
+    display: none;
+  }
+
+.show {
+    display: block;
+  }
+
+.phone a:hover {
+    color: #fff;
+  }
+
 /* Digital Art Styles */
+
+.spinny {
+    display: flex;
+}
 
 .rotate {
     animation: rotation 21s infinite linear;
-    position: absolute;
     z-index: 2; 
+    margin: auto;
+    width: 40%;
   }
   
-  @keyframes rotation {
+@keyframes rotation {
     from {
       transform: rotate(0deg);
     }
