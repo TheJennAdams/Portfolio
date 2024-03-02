@@ -107,9 +107,20 @@ h1 {
     font-size: 2.5em;
 }
 
-/* Colorcode
-#FFBB28 - Sunflower Yellow
-#FFF2D6 - Pale Yellow
-#FF0000 - Red
-#B200FF - Purple
-*/
+/* Digital Art Styles */
+
+.rotate {
+    animation: rotation 21s infinite linear;
+    position: absolute;
+    z-index: 2; 
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+      
+  }
