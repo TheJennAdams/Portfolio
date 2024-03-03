@@ -136,18 +136,29 @@ hr:last-child {
     color: #fff;
   }
 
-/* Digital Art Styles */
-
-.spinny {
-    display: flex;
-}
-
 .rotate {
     animation: rotation 21s infinite linear;
-    z-index: 2; 
-    margin: auto;
-    width: 40%;
+    position: absolute;
+    left: 20%;
+    z-index: 2;        
+    width: 100px;
+    top:150px;
   }
+
+@media (max-width: 450px) {
+    .rotate {
+        width: 75px;
+        top:75px;
+    }
+}
+
+@media (min-width: 800px) {
+    .rotate {
+        width: 150px;
+        top: 50px;
+        left: 50px;
+    }
+}
   
 @keyframes rotation {
     from {
