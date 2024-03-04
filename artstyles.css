@@ -137,7 +137,7 @@ hr:last-child {
   }
 
 .rotate {
-    animation: rotation 21s infinite linear;
+    animation: rotation 10s infinite linear;
     position: absolute;
     left: 20%;
     z-index: 2;        
