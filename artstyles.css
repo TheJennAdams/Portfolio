@@ -94,7 +94,7 @@ hr:last-child {
     margin-bottom: 45px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1800px) {
     #nav {
         display: none;
     }
@@ -169,3 +169,23 @@ hr:last-child {
     }
       
   }
+
+.examples {
+    display: flex;
+    max-width:
+}
+
+.examples > div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.examples > div > img {
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.examples > div > h1 {
+    text-align: center;
+}
