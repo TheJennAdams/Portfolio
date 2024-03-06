@@ -94,7 +94,7 @@ hr:last-child {
     margin-bottom: 45px;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 800px) {
     #nav {
         display: none;
     }
@@ -172,20 +172,29 @@ hr:last-child {
 
 .examples {
     display: flex;
-    max-width:
+    flex-wrap: wrap;  
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
-.examples > div {
-    margin-left: 50px;
-    margin-right: 50px;
+.example-box {
+    flex: 1 1 15%;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid #FF0000;
+    max-width: 250px;
 }
 
-.examples > div > img {
-    width: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
+.example-img { 
+    margin: auto;
+    justify-content: space-around;
 }
 
-.examples > div > h1 {
+.example-img img {
+    max-width: 250px;    
+    margin: auto;
+}
+
+.caption {
     text-align: center;
 }
