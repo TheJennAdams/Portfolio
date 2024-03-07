@@ -16,6 +16,12 @@ a {
 
 h1 {
     padding: 1%;
+    font-size: 3em;
+}
+
+h2 {
+    padding: 1%;
+    font-size: 2em;
 }
 
 hr {
@@ -32,6 +38,8 @@ hr:last-child {
     width: 70%;
     margin: auto;
 }
+
+/* Navigation Bar */
 
 #nav {
     display: flex;
@@ -53,6 +61,20 @@ hr:last-child {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+@media (max-width: 799px) {
+    #nav {
+        display: none;
+    }
+}
+
+@media (min-width: 800px) {
+    #phonenav {
+        display: none;
+    }
+}
+
+/* Art Homepage Styling */
 
 #art {
     margin-top: 30px;
@@ -94,18 +116,6 @@ hr:last-child {
     margin-bottom: 45px;
 }
 
-@media (max-width: 800px) {
-    #nav {
-        display: none;
-    }
-}
-
-@media (min-width: 799px) {
-    #phonenav {
-        display: none;
-    }
-}
-
 .page-wrapper h3 {
     text-align: center;
     font-family: Fondamento;
@@ -136,6 +146,8 @@ hr:last-child {
     color: #fff;
   }
 
+/* Code for rotating sunflower art */
+
 .rotate {
     animation: rotation 10s infinite linear;
     position: absolute;
@@ -152,7 +164,7 @@ hr:last-child {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1400px) {
     .rotate {
         width: 150px;
         top: 50px;
@@ -160,6 +172,22 @@ hr:last-child {
     }
 }
   
+@media (min-width: 1400px) and (max-width: 2000px) {
+    .rotate {
+        width: 250px;
+        top: 50px;
+        left: 50px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .rotate {
+        width: 350px;
+        top: 50px;
+        left: 10%;
+    }
+}
+    
 @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -169,6 +197,8 @@ hr:last-child {
     }
       
   }
+
+/* Code for art style pages */
 
 .examples {
     display: flex;
@@ -196,5 +226,18 @@ hr:last-child {
 }
 
 .caption {
+    text-align: center;
+}
+
+.bigImage {
+    position: fixed;
+    transform: scale(4);
+    width: 1vw;
+    z-index: 10;
+}
+
+/* Code for informational pages */
+
+.mainBody {
     text-align: center;
 }
