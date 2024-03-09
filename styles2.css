@@ -41,6 +41,20 @@ p {
     margin: 30px 50px;
 }
 
+.button {
+    text-align: center;
+}
+
+.btn {
+  background-color: #C1809D;
+  border: 2px solid #5e0b30;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+}
+
 .examples {
     margin-left: 25px;
     font-size: 2rem;
@@ -54,9 +68,10 @@ a {
 
 .right {
     background: linear-gradient(to bottom, #C1809D 0%, #C1809D 40px,#DEB8CA 60px, #DEB8CA 100%);
-    border-radius: 20px;
-    width: 650px;
-    margin-left: 520px;
+    border-radius: 25px;
+    width: 660px;
+    float: right;
+    margin: 33px 25px 0 25px;
     box-shadow: 3px 3px #89516B;
 }
 
@@ -78,11 +93,9 @@ a {
 }
 
 .sidebar {
-    position: relative;
-    top: -1500px;
     background: linear-gradient(to bottom, #C1809D 0%, #C1809D 40px,#DEB8CA 60px, #DEB8CA 100%);
-    border-radius: 20px;
-    width: 450px;
-    margin: 0 20px;
+    border-radius: 25px;
+    width: 470px;
+    margin: 25px;
     box-shadow: 3px 3px #89516B;
     }
