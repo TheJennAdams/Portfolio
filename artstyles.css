@@ -16,7 +16,7 @@ a {
 
 h1 {
     padding: 1%;
-    font-size: 3em;
+    font-size: 2.6em;
 }
 
 h2 {
@@ -31,6 +31,10 @@ hr {
 
 hr:last-child {
     border: 0px solid #fff;
+}
+
+p {
+    font-size: 1.5em;
 }
 
 .pageTitle {
@@ -236,6 +240,7 @@ hr:last-child {
     margin: auto;
     height: 275px;
     object-fit: cover;
+    box-shadow: 3px 3px 5px #800101;
 }
 
 .link-img { 
@@ -267,14 +272,13 @@ hr:last-child {
     text-align: center;
 }
 
-.newImageDiv {
+#embiggen {
     position: absolute;
-    margin: auto;
     z-index: 10;
+    text-align: center;
+    margin: auto;
 }
 
-.newImageDiv img {
-    margin: auto;
-    width: 1500px;
-    box-shadow: 10px 10px #FF0000;
+#enlarge {
+    width: 85%;
 }
