@@ -230,7 +230,7 @@ hr:last-child {
 }
 
 .bigImage {
-    position: fixed;
+    position: absolute;
     transform: scale(4);
     width: 1vw;
     z-index: 10;
