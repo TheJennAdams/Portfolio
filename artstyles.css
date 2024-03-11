@@ -24,6 +24,10 @@ h2 {
     font-size: 2em;
 }
 
+p {
+    font-size: 1.5em;
+}
+
 hr {
     border: 2px solid #fff;
     border-radius: 10px;
@@ -33,20 +37,38 @@ hr:last-child {
     border: 0px solid #fff;
 }
 
-p {
-    font-size: 1.5em;
+/* Header for navigating between art styles */
+.stylesNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .pageTitle {
     text-align: center;
     color: #FF0000;
-    text-shadow: 2px 2px #ddb4b4;
-    font-size: 4em;
-    font-family: Ephesis;
+    text-shadow: 1px 1px #ddb4b4;
+    font-size: 3em;
+    font-family: Birthstone;
     margin-top: 0px;
     margin-bottom: 0px;
-    letter-spacing: 10px;
-    text-decoration: underline;
+    letter-spacing: 5px;
+    /* text-decoration: underline; */
+}
+
+.pageNav {
+    text-align: center;
+    color: #FF0000;
+    text-shadow: .5px .5px #ddb4b4;
+    font-size: 1.2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: px;
+}
+
+.btn {
+    width: 12px;
 }
 
 #ja {
@@ -144,7 +166,7 @@ p {
     background-color: #FFBB28;
     color: #fff;
     padding: 0 5px;
-    margin: 0 30%;
+    margin: 0 5%;
     border-radius: 10px;
     list-style: none;
 }
