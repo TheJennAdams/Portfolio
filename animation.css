@@ -21,7 +21,7 @@ h2 {
 
 p {
     color: #764062;
-    /* margin: 10%; */
+    margin: 10%;
     font-size: 1.2em;
 
 }
@@ -35,9 +35,9 @@ a {
 
 #title {
     color: #764062;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 5em;
-    padding: 5px;
+    padding: 5px 0;
     text-align: center;
 }
 
