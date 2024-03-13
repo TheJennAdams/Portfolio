@@ -101,7 +101,7 @@ a {
     }
 
 /* Phone Responsiveness */
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
     .bodybg {
         width: 700px;
         margin: -12px auto;
