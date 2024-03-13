@@ -5,11 +5,10 @@
 
 .bodybg {
     background-color: #DDE2DB;
-    border-left: 6px solid #bec9bb;
-    border-right: 6px solid #bec9bb;
+    border: 6px solid #bec9bb;
     width: 1200px;
     margin: -12px auto;
-    height: 3000px;
+    padding-bottom: 100px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -100,3 +99,26 @@ a {
     box-shadow: 3px 3px #89516B;
     padding-top: 1px;
     }
+
+/* Phone Responsiveness */
+@media (max-width: 800px) {
+    .bodybg {
+        width: 700px;
+        margin: -12px auto;
+    }
+    #heading {
+        width: 650px;
+    }
+    .right {
+        width: 650px;
+        margin: 33px 25px 0 25px;
+        padding-top: 1px;
+        float: none;
+    }    
+    .sidebar {
+        width: 650px;
+        margin: 33px 25px 0 25px;
+        box-shadow: 3px 3px #89516B;
+        padding-top: 1px;
+        }    
+}
