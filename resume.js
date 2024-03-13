@@ -1,4 +1,4 @@
-const red = 181;
+const red = 200;
 const green = 236;
 const blue = 255;
 
@@ -6,7 +6,7 @@ const header = document.getElementById("header");
 
 function changeColor () {
 
-const scrollFactor = 1 + window.scrollY / 1000;
+const scrollFactor = 1 + window.scrollY / 2000;
 
 const r = red / scrollFactor;
 const g = green / scrollFactor;
