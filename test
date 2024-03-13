@@ -1,0 +1,247 @@
+/* Code We Know Works  */
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Hero Image Content */
+    display: block;
+    margin: auto;
+
+    /* Text Styles */
+    text-align: center;
+
+    /* Background Styles */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('images/pancakes.jpg'); */
+    
+    background-image: url('images/pancakes.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text Styles */
+    font-size: 5em;
+    color: #fff;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.hero h2 {
+    /* Text Styles */
+    font-size: 2em;
+    color: #fff;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.hero .btn {
+    /* Text Styles */
+    text-decoration: none;
+    color: #fff;
+
+    /* Background styles */
+    background-color: rgba(118, 64, 98, 0.8);
+
+    /* Postioning and Sizing */
+    display: block;
+    width: 200px;
+
+    /* Border Styles */
+    border: 3px dashed #e7bed8;
+    border-radius: 20px;
+
+    /* Padding and Margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Fade-Out Effect */
+@keyframes fade-out {
+    to { opacity: 0; }
+}
+.hero-inner {
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -70px;
+    padding: 100px;
+}
+
+.food-pics {
+    width: 70%;
+    padding: 5px;    
+    border: 4px solid #764062;
+}
+
+/.animated-pics {
+    text-align: center;
+    margin: 10px;
+} */
+
+
+/* Code that Doesn't Necessarily Work  */
+
+
+/* Hero Image Effects */
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Hero Image Content */
+    display: block;
+    margin: auto;
+
+    /* Text Styles */
+    text-align: center;
+
+    /* Background Styles */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('images/pancakes.jpg'); */
+    
+    background-image: url('images/pancakes.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero img {
+    /* transform: scale(2) !important; */
+    opacity: .3;
+}
+
+.hero h1 {
+    /* Text Styles */
+    font-size: 5em;
+    color: #fff;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.hero h2 {
+    /* Text Styles */
+    font-size: 2em;
+    color: #fff;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+.hero .btn {
+    /* Text Styles */
+    text-decoration: none;
+    color: #fff;
+
+    /* Background styles */
+    background-color: rgba(118, 64, 98, 0.8);
+
+    /* Postioning and Sizing */
+    display: block;
+    width: 200px;
+
+    /* Border Styles */
+    border: 3px dashed #e7bed8;
+    border-radius: 20px;
+
+    /* Padding and Margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Fade-Out Effect */
+@keyframes fade-out {
+    to { opacity: 0; }
+}
+.hero-inner {
+    animation: fade-out linear;
+    animation-timeline: view();
+    animation-range: exit -70px;
+    padding: 100px;
+    opacity: 1 !important;
+}
+
+/* Food Zoom In Effects */
+.food-pics {
+    width: 70%;
+    padding: 5px;    
+    border: 4px solid #764062;
+}
+
+Animations disabled for people who have that preference. (Animations can make some people nauseated and they won't stay on your website if you don't use this media query)
+@media (prefers-reduced-motion: no-preference) {
+
+Images fade in on scroll
+    img.food-pics { 
+        scale: .5; opacity: 0;
+        animation: fade-in linear forwards;
+        animation-timeline: view();
+        animation-range: entry;
+    }
+    @keyframes fade-in {
+        to {scale: 1; opacity: 1;}
+    }
+}
+
+.animated-pics {
+    text-align: center;
+    margin: 10px;
+} */
+
+/*#title {
+    color: #764062;
+    margin: 20px 0;
+    font-size: 5em;
+    padding: 5px 0;
+    text-align: center;
+}
+
+/* body {
+    max-width: 80%;
+    margin: auto;
+}
+
+h1 {
+    color: #764062;
+    margin: 10%;
+    font-size: 5em;
+    border: 4px solid #764062;
+    padding: 5px;
+}
+
+h2 {
+    color: #764062;
+    margin: 0 10%;
+    font-size: 2em;
+    border: 2px solid #764062;
+    padding: 30px;
+}
+
+p {
+    color: #764062;
+    margin: 10%;
+    font-size: 1.2em;
+
+}
+
+a {
+    text-decoration: none;
+    color: #aec25e;
+    text-shadow: 1px 1px #7e922e;
+    font-size: 1.1em;
+} */
+

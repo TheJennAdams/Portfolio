@@ -52,11 +52,11 @@ a {
   display: inline-block;
 }
 
-.examples {
+/* .examples {
     margin-left: 25px;
     font-size: 2rem;
     margin-top: -10px;
-}
+} */
 
 section > h3 {
     text-indent: 100px;

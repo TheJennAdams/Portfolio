@@ -8,14 +8,27 @@
     <title>Animation Styles</title>
 </head>
 <body>
-    <div id="title">Food Inspiration</div>
-        <p>I wanted to create this site to demonstrate some of the cool and fun animation effects I'm learning in CSS. I was struggling with some animations I was trying to apply in JavaScript and I was excited to come across <a href="https://youtu.be/UmzFk68Bwdk?si=VeGGo9GUL8w_e1vA">this video</a> showing how to do some really cool web animations with just a few lines of CSS. Thanks Kevin for the awesome tutorial!
-        </p>
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Food Inspiration</h1>
+            <h2>Explore the beauty and bounty of wondeful food!</h2>
+            <a href="https://www.thejennadams.com" target="_blank" class="btn">Check out more of my Animation project!</a>
+        </div>
+    </section>
+    <main>
+        <p>The Hero image above is coded with some fun animation effects. Scroll back up if you didn't notice them. Then scroll down slowly and notice how the text faces out as you scroll down, and fades back in again as you scroll back up. Ethan at Code the Web wrote a very clear and helpful article on how to achieve this effect.</p>
+        <div class="btn-div">
+            <a href="https://codetheweb.blog/fullscreen-image-hero/" target="_blank" class="body-btn">Read Ethan's Tutorial</a>
+        </div>
+        <p>I wanted to create this site to demonstrate some of the cool and fun animation effects I'm learning in CSS. I was struggling with some animations I was trying to apply in JavaScript and I was excited to come across a video showing how to do some really cool web animations with just a few lines of CSS. Thanks Kevin for the awesome tutorial!</p>
+        <div class="btn-div">
+            <a href="https://youtu.be/UmzFk68Bwdk?si=VeGGo9GUL8w_e1vA" target="_blank" class="body-btn">Watch Kevin's Tutorial</a>
+        </div>
         <div class="animated-pics">
-            <img class="food-pics" src="images/grapes.jpg" alt="">
+            <img class="food-pics" src="images/grapes.jpg">
         </div>
         <p>Fresh fruit, like grapes, are a wonderful source of vitamins and minerals. And if you aren't eating literal candy every day, fruit is sweet and satisfying.</p>  
-        <h2>Accessability Note: Animations are disabled on this site for people who have that preference set on their device. (Animations can make some people feel sick, and you can turn them off for people who don't want to see them.)</h2>              
+        <h3>Accessibility Note: Animations are disabled on this site for people who have that preference set on their device. (Animations can make some people feel sick, and you can turn them off for people who don't want to see them.)</h3>              
         <div class="animated-pics">
             <img class="food-pics" src="images/blueberries.jpg" alt="">
         </div>
@@ -47,7 +60,8 @@
         <div class="animated-pics">
             <img class="food-pics" src="images/vegetables.jpg" alt="">
         </div>
-        <p>veg</p>    
+        <p>veg</p>
+    </main>    
 </body>
 <footer class="bg-gray-900 text-gray-200">
     <div class="container mx-auto py-14 px-6">
