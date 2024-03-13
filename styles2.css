@@ -73,7 +73,7 @@ a {
 
 #hr {
     width: 300px;
-    margin-left: 125px;
+    margin-left: 70px;
 }
 
 .footer {
@@ -120,5 +120,9 @@ a {
         margin: 33px 25px 0 20px;
         box-shadow: 3px 3px #89516B;
         padding-top: 1px;
-        }    
+        }
+    #hr {
+        width: 350px;
+        margin-left: 90px;
+    }   
 }
