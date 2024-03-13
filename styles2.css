@@ -103,21 +103,21 @@ a {
 /* Phone Responsiveness */
 @media (max-width: 1300px) {
     .bodybg {
-        width: 700px;
+        width: 575px;
         margin: -12px auto;
     }
     #heading {
-        width: 650px;
+        width: 530px;
     }
     .right {
-        width: 650px;
-        margin: 33px 25px 0 25px;
+        width: 530px;
+        margin: 33px 25px 0 20px;
         padding-top: 1px;
         float: none;
     }    
     .sidebar {
-        width: 650px;
-        margin: 33px 25px 0 25px;
+        width: 530px;
+        margin: 33px 25px 0 20px;
         box-shadow: 3px 3px #89516B;
         padding-top: 1px;
         }    
