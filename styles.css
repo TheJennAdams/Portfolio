@@ -159,3 +159,17 @@ a {
 @keyframes title {
     to { scale: 0 0; }
 } */
+
+/* Footer Styles  */
+#attribution {
+    color: #D69508;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#attribution a {
+    color: inherit;
+    text-decoration: none;
+}

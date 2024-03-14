@@ -147,3 +147,18 @@ img.food-pics {
 }
 
 }
+
+/* Footer Styles  */
+#attribution {
+    background-color: #a15385;
+    color: #764062;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#attribution a {
+    color: inherit;
+    text-decoration: none;
+}

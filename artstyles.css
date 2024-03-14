@@ -304,3 +304,18 @@ hr:last-child {
 #enlarge {
     width: 85%;
 }
+
+/* Footer Styles  */
+#attribution {
+    background-color: #fceac2;
+    color: #FFBB28;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#attribution a {
+    color: inherit;
+    text-decoration: none;
+}
